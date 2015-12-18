@@ -12,6 +12,7 @@
 		988356F11C1EA703002850B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988356EF1C1EA703002850B9 /* Main.storyboard */; };
 		988356F31C1EA703002850B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 988356F21C1EA703002850B9 /* Assets.xcassets */; };
 		988356F61C1EA703002850B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988356F41C1EA703002850B9 /* LaunchScreen.storyboard */; };
+		988356FE1C221A1E002850B9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988356FD1C221A1E002850B9 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		988356F21C1EA703002850B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		988356F51C1EA703002850B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		988356F71C1EA703002850B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988356FD1C221A1E002850B9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		988356EA1C1EA703002850B9 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				988356FD1C221A1E002850B9 /* SettingsViewController.swift */,
 				988356EB1C1EA703002850B9 /* AppDelegate.swift */,
 				988356ED1C1EA703002850B9 /* ViewController.swift */,
 				988356EF1C1EA703002850B9 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				988356EE1C1EA703002850B9 /* ViewController.swift in Sources */,
 				988356EC1C1EA703002850B9 /* AppDelegate.swift in Sources */,
+				988356FE1C221A1E002850B9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
